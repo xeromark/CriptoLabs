@@ -1,0 +1,11 @@
+
+
+hashcat -m 22000 --potfile-disable handshake_Compatible.hccapx rockyou_mod.dic 
+
+hashcat -m 22000 --potfile-pat=my.pot handshake_Compatible.hccapx rockyou_mod.dic 
+
+hashcat -m 0 -a 0 -o respuesta.txt c.txt rockyou_mod.dic  
+
+hashcat -m 0 -a 0 c.txt rockyou_mod.dic  
+
+hcxpcapngtool -o handshake_Compatible.hccapx handshake.pcap  

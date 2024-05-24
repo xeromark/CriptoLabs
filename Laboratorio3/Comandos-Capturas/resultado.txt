@@ -1,0 +1,31 @@
+Reading packets, please wait...
+Opening tilin-01.cap
+[0KRead 169497 packets.
+
+   #  BSSID              ESSID                     Encryption
+
+   1  B0:48:7A:D2:DD:74  WEP                       WEP (58059 IVs)
+
+Choosing first network as target.
+
+Reading packets, please wait...
+Opening tilin-01.cap
+[0KRead 169497 packets.
+
+1 potential targets
+
+Attack will be restarted every 5000 captured ivs.
+[6;51HGot 58059 out of 55000 IVs[0KStarting PTW attack with 58059 ivs.
+[2J[2;56HAircrack-ng 1.7 
+
+[5;42H[00:00:00] Tested 2 keys (got 58059 IVs)[0K[7;4HKB    depth   byte(vote)
+    0    0/  1   12(77056) 20(69632) 05(67840) C1(66560) 5F(66304) 91(66304) F7(66304) D0(65792) D8(65536) 
+    1    0/  1   34(83712) AB(69120) FF(68608) 0F(68352) EE(68352) C3(66560) FC(66560) 25(66304) 6C(66048) 
+    2    0/  1   56(72960) A9(72704) 3C(68096) 8B(68096) B7(68096) 6E(67584) C9(66816) F8(66304) DF(66048) 
+    3    0/  1   78(72704) 84(68352) 21(67584) 49(67072) DD(67072) D3(66560) 8D(66048) 42(65792) 8C(65536) 
+    4    0/  1   90(78336) 52(68096) C8(68096) A5(67328) 8A(67072) AE(66816) 64(66560) 2D(65792) B5(65792) 
+[0J
+[0K[25CKEY FOUND! [ 12:34:56:78:90 ] 
+	Decrypted correctly: 100%
+
+
