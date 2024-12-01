@@ -1,9 +1,0 @@
-FROM ubuntu:20.10
-
-COPY sources.list /etc/apt/
-
-RUN apt-get update
-RUN apt-get install -y openssh-client openssh-server
-
-# Para que el contenedor siga en ejecución
-ENTRYPOINT ["tail", "-f", "/dev/null"]
